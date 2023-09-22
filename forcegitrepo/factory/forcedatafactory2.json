@@ -1,0 +1,9 @@
+{
+	"name": "forcedatafactory2",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "528a8b75-d131-4380-b97a-20f2b05cc58d",
+		"tenantId": "20f3b949-2903-4d24-9d01-ad8df676e397"
+	}
+}
