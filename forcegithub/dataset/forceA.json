@@ -1,0 +1,32 @@
+{
+	"name": "forceA",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "forcelinkedser1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "customersA.xlsx",
+				"folderPath": "incustomers1",
+				"container": "forcecontainer"
+			}
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

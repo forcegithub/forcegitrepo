@@ -1,0 +1,32 @@
+{
+	"name": "ord",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "orderblobstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "ordersA.xlsx",
+				"folderPath": "inorder1",
+				"container": "forcecontainer"
+			}
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

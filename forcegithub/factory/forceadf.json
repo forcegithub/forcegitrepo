@@ -1,0 +1,9 @@
+{
+	"name": "forceadf",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0848e062-0848-47e0-bd6f-9a5b46c09c43",
+		"tenantId": "20f3b949-2903-4d24-9d01-ad8df676e397"
+	}
+}
